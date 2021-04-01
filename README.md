@@ -5,5 +5,5 @@ Functionalities:
 * Login/Sign-in
 * Projects management, convenient storing of all informations about past & present projects, client credentials
 * Billable hours calculation
-* Real-time measuring of time spent on project with focus mode functionality
+* Real-time measuring of time spent on project
 * Settings: ability to change color theme, timer sound etc.
