@@ -6,11 +6,14 @@ $path = trim($_SERVER['REQUEST_URI'], '/');
 $path = parse_url( $path, PHP_URL_PATH);
 
 Router::get('', 'DefaultController');
+Router::post('login', 'SecurityController');
 Router::get('main', 'DefaultController');
 Router::get('signup', 'DefaultController');
+Router::post('register', 'SecurityController');
 Router::get('accountsettings', 'DefaultController');
 Router::get('deleteproject', 'DefaultController');
 Router::get('newproject', 'DefaultController');
+Router::post('addnewproject', 'SecurityController');
 Router::get('newentry', 'DefaultController');
 Router::get('projectentries', 'DefaultController');
 Router::get('addentrymanually', 'DefaultController');
@@ -22,5 +25,6 @@ Router::get('completeproject', 'DefaultController');
 Router::get('seeprojectinfo', 'DefaultController');
 Router::get('starttimer', 'DefaultController');
 Router::get('timer', 'DefaultController');
+Router::get('manageprojects', 'DefaultController');
 
 Router::run($path);
