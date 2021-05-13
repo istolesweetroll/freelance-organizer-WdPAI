@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
 			background: transparent linear-gradient(180deg, #A2B198 0%, #A2B198 100%) 0% 0% no-repeat padding-box;
@@ -8,7 +9,7 @@ body {
     width: 100vw;
     height: 100vh;
     background: transparent linear-gradient(180deg, #A2B198 0%, #A2B198 100%) 0% 0% no-repeat padding-box;
-    
+
 	display: flex;
     flex-direction: row;
     justify-content: center;
@@ -45,8 +46,11 @@ button {
     color: white;
     margin: 1em;
     line-height: 2.5em;
+
 }
 
+
+   
 input {
     background-color: white;
     border: 6px solid rgb(185, 214, 174);
@@ -65,7 +69,7 @@ input {
     }
     * {
         font-size: 36px;
-        
+
     color: rgba(72,72,72,1);
     }
     .login-container,
@@ -133,8 +137,8 @@ li i {
     color: #FFFFFF;
     padding: 0.2rem;
     width: 60%;
+	
 }
-
 .select {
     position: relative;
     display: inline-block;
@@ -681,7 +685,7 @@ header {
 }
 label {
     display: block;
-   
+
 }
 
 	.mediaViewInfo {
@@ -1681,7 +1685,7 @@ label {
     .control input:focus ~ .control_indicator {
         background: #cccccc;
     }
-    
+
     .control input:checked ~ .control_indicator {
         background: #2aa1c0;
     }
@@ -2347,7 +2351,7 @@ label {
 		letter-spacing: 1px;
 		text-transform: uppercase;
 	}
-    
+
     .custom-file-input::-webkit-file-upload-button {
         visibility: hidden;
       }
@@ -2456,7 +2460,7 @@ label {
 		  transform: matrix(1,0,0,1,0,0);
 		  --web-animation: fadein undefineds undefined;
 		  --web-action-type: page;
-		  --web-action-target: See_project_info_screen___2.html;
+
 		  cursor: pointer;
 	  }
 	  #Collabee_Private_Co {
@@ -2606,7 +2610,6 @@ label {
 		  transform: matrix(1,0,0,1,0,0);
 		  --web-animation: fadein undefineds undefined;
 		  --web-action-type: page;
-		  --web-action-target: See_project_info_screen___2.html;
 		  cursor: pointer;
 	  }
 	  #Wed_25_Oct {
@@ -2670,7 +2673,6 @@ label {
 		  transform: matrix(1,0,0,1,0,0);
 		  --web-animation: fadein undefineds undefined;
 		  --web-action-type: page;
-		  --web-action-target: See_project_info_screen___2.html;
 		  cursor: pointer;
 	  }
 	  #Target {
@@ -2762,7 +2764,6 @@ label {
 		  transform: matrix(1,0,0,1,0,0);
 		  --web-animation: fadein undefineds undefined;
 		  --web-action-type: page;
-		  --web-action-target: See_project_info_screen___2.html;
 		  cursor: pointer;
 	  }
 	  #Rectangle_652 {
@@ -2949,8 +2950,8 @@ label {
 		  font-size: 21px;
 		  color: rgba(98,128,255,1);
 	  }
-	
-	
+
+
 	  .mediaViewInfo {
 		--web-view-name: Start timer screen – 1;
 		--web-view-id: Start_timer_screen__1;
@@ -3013,5 +3014,73 @@ label {
 		color: rgba(72,72,72,1);
 		letter-spacing: 1px;
 	}
-	
-	
+
+#wrapper {
+    height: 100px;
+    width: 500px;
+}
+
+#wrapper {
+    bottom: 50%;
+    right: 50%;
+    position: absolute;
+}
+
+#container {
+    background: #FFF;
+    left: 50%;
+    padding: 10px;
+    top: 50%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border: 1px solid rgb(128, 128, 128);
+    height: 100%;
+    position: relative;
+}
+
+#inner1 {
+    height: 100%;
+    border: 1px solid blue;
+}
+
+#inner2 {
+    height: 100%;
+    border: 1px solid green;
+}
+
+#titlebar {
+    cursor: pointer;
+    height: 23px;
+    width: 100%;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#0A246A, endColorStr=#A6CAF0, GradientType=1);
+    color: white;
+    font: 13px arial, helvetica;
+}
+
+#button {
+    line-height: 12px;
+    width: 18px;
+    font-size: 8pt;
+    font-family: tahoma;
+    margin-top: 1px;
+    margin-right: 2px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#back{
+
+		background-color: #bbb;
+		padding: .5em;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 6px;
+		color: #fff;
+		font-family: 'Oswald';
+		font-size: 20px;
+		text-decoration: none;
+		border: none;
+	   
+}
